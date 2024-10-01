@@ -11,12 +11,10 @@
 <body>
     <div class="container">
     <h1>Weather App</h1>
-    
-
     <form method="POST">    
         {% csrf_token %}
         <input type="text" name="city" placeholder="Enter city">
-        <button type="submit">Get Weather</button>
+        <button type="submit" class="btn">Get Weather</button>
     </form>
 
     <div class="weather">   
